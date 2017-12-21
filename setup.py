@@ -48,7 +48,7 @@ COMPILE_OPTIONS =  {
     'msvc': ['/Ox', '/EHsc'],
     'mingw32' : ['-O3', '-Wno-strict-prototypes', '-Wno-unused-function'],
     'other' : ['-O3', '-Wno-strict-prototypes', '-Wno-unused-function',
-               '-march=native']
+               '-march=x86-64', '-mtune=generic']
 }
 
 
